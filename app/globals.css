@@ -98,7 +98,7 @@ li{
 
 @media only screen and (max-width: 430px){
   header{
-    width: 85%;
+    width: 100%;
   }
 
   #sidebar{
@@ -108,7 +108,7 @@ li{
   .about{
     float: left;
     padding: 4% 4% 4% 4%;
-    width: 89%;
+    width: 90%;
   }
 
   #about{
