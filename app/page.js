@@ -5,15 +5,15 @@ export default function Home() {
   return (
     <html lang="en">
       <head>
-        <title>Darren's Portfolio</title>
+        <title>Darren&apos;s Portfolio</title>
       </head>
       <body>
         <header>
-          <h1>Darren's Portfolio</h1>
+          <h1>Darren&apos;s Portfolio</h1>
         </header>
         <div id="sidebar">
           <div class="profile">
-            <Image src={CurtinImage} alt="Curtin" title="Author's Personal Picture" id="picProfile" />
+            <Image src={CurtinImage} alt="Curtin" title="Author Personal Picture" id="picProfile" />
             <p class="role">Software Engineer</p>
           </div>
           <div class="nav">
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <div class="about">
           <div class="profileMobile">
-            <Image src={CurtinImage} alt="Curtin" title="Author's Personal Picture" id="profileMobile" />
+            <Image src={CurtinImage} alt="Curtin" title="Author Personal Picture" id="profileMobile" />
             <p class="role">Software Engineer</p>
           </div>
           <h2 id="about">About</h2>
