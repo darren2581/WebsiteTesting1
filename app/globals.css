@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(/Fonts/Roboto-Regular.ttf);
+}
+
+*{
+  font-family: Roboto;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  padding: 30px;
+  background-color: #f0f0f0;
+  letter-spacing: 5px;
+}
+
+#sidebar{
+  margin-top: 1%;
+  margin-left: 2%;
+  float: left;
+  width: 15%;
+  height: 100%;
+  visibility: visible;
+  background-color: #f0f0f0;
+  border: 1px solid #000000;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.role{
+  /* font-weight: bold; */
+}
+
+#picProfile{
+  width: 100%;
+  border-top-right-radius: 20px;
+}
+
+.profile{
+  padding-bottom: 30%;
+}
+
+.nav{
+  width: 90%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-top: 1px solid #b5b4b4;
+}
+
+#contact{
+  border-bottom-right-radius: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+div.nav:hover{
+  background-color: white;
+  font-size: 110%;
+}
+
+.about{
+  float: right;
+  margin: 1%;
+  padding: 4% 10% 4% 10%;
+  width: 60%;
+  border: 1px solid #000000;
+}
+
+.introduction{
+  padding-bottom: 10%;
+  padding-top: 3%;
+  line-height: 1.25;
+}
+
+h3.skills{
+  text-align: left;
+}
+
+li{
+  text-align: left;
+  padding-bottom: 1%;
+}
+
+.profileMobile{
+  display: none;
+}
+
+#profileMobile{
+  width: 60%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 550px){
+  header{
+    width: 85%;
+  }
+
+  #sidebar{
+      /* visibility: collapse; */
+      display: none;
+  }
+
+  .about{
+    float: left;
+    padding: 4% 4% 4% 4%;
+    width: 89%;
+  }
+
+  #about{
+    padding-top: 10%;
+  }
+
+  .profileMobile{
+    display: block;
+  }
+
+  /* p{
+    font-size: 60%;
+  } */
+}
