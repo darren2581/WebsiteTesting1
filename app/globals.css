@@ -3,11 +3,14 @@
   src: url(/Fonts/Roboto-Regular.ttf);
 }
 
-*{
+html,body {
   font-family: Roboto;
   text-align: center;
   width: 100%;
-  margin: 0 auto;
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+  overflow-x: hidden;
 }
 
 header{
@@ -27,10 +30,6 @@ header{
   border: 1px solid #000000;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
-
-.role{
-  /* font-weight: bold; */
 }
 
 #picProfile{
@@ -65,11 +64,11 @@ div.nav:hover{
 }
 
 .about{
-  float: right;
+  float: left;
   margin: 1%;
   padding: 4% 10% 4% 10%;
   width: 60%;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 
 .introduction{
@@ -97,13 +96,12 @@ li{
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 430px){
   header{
     width: 85%;
   }
 
   #sidebar{
-      /* visibility: collapse; */
       display: none;
   }
 
@@ -120,8 +118,4 @@ li{
   .profileMobile{
     display: block;
   }
-
-  /* p{
-    font-size: 60%;
-  } */
 }
