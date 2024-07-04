@@ -1,4 +1,5 @@
-
+import Image from 'next/image';
+import CurtinImage from '../public/Curtin.jpeg';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         </header>
         <div id="sidebar">
           <div class="profile">
-            <img src="Curtin.jpeg" alt="Curtin" title="Author's Personal Picture" id="picProfile"/>
+            <Image src={CurtinImage} alt="Curtin" title="Author's Personal Picture" id="picProfile" />
             <p class="role">Software Engineer</p>
           </div>
           <div class="nav">
@@ -33,7 +34,7 @@ export default function Home() {
         </div>
         <div class="about">
           <div class="profileMobile">
-            <img src="Curtin.jpeg" alt="Curtin" title="Author's Personal Picture" id="profileMobile"/>
+            <Image src={CurtinImage} alt="Curtin" title="Author's Personal Picture" id="profileMobile" />
             <p class="role">Software Engineer</p>
           </div>
           <h2 id="about">About</h2>
