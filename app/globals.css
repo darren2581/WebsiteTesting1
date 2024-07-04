@@ -35,6 +35,7 @@ header{
 
 #picProfile{
   width: 100%;
+  height: 100%;
   border-top-right-radius: 20px;
 }
 
@@ -92,6 +93,7 @@ li{
 
 #profileMobile{
   width: 60%;
+  height: 60%;
   border-radius: 20px;
 }
 
