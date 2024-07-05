@@ -74,6 +74,10 @@ export default function Home() {
               <td>Exhibition Feedback System</td>
               <td>21st June</td>
             </tr>
+            <tr>
+              <td>Exhibition Feedback System</td>
+              <td>21st June</td>
+            </tr>
           </table>
         </div>
       </body>
