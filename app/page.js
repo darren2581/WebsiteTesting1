@@ -26,7 +26,7 @@ export default function Home() {
             <h4><a href="https://www.google.com">Education</a></h4>
           </div>
           <div class="nav">
-            <h4><a href="https://www.google.com">Experience</a></h4>
+            <h4><a href="https://www.google.com">Projects</a></h4>
           </div>
           <div class="nav" id="contact">
             <h4><a href="https://www.google.com">Contact</a></h4>
