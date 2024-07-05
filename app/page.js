@@ -1,4 +1,4 @@
-import Image from 'next/image';
+we import Image from 'next/image';
 import CurtinImage from '../public/Curtin.jpeg';
 
 export default function Home() {
@@ -75,10 +75,10 @@ export default function Home() {
               <td>21st June</td>
             </tr>
           </table>
-           /*<ul>
+           <!-- <ul>
             <li><a href="https://github.com/darren2581/Exhibition-Feedback-System">Exhibition Feedback System</a></li>
             <li>Bachelor of Software Engineering (Curtin University)</li>
-          </ul>*/
+          </ul> --!>
         </div>
       </body>
     </html>
