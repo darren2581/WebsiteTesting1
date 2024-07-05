@@ -3,9 +3,12 @@
   src: url(/Fonts/Roboto-Regular.ttf);
 }
 
-html,body {
+*{
   font-family: Roboto;
   text-align: center;
+}
+
+html,body {
   width: 100%;
   height: 100%;
   margin: 0; 
@@ -24,12 +27,15 @@ header{
   margin-left: 2%;
   float: left;
   width: 15%;
-  /*height: 100%;*/
+  /* height: 100%; */
   visibility: visible;
   background-color: #f0f0f0;
   border: 1px solid #000000;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
 }
 
 #picProfile{
@@ -63,6 +69,17 @@ div.nav:hover{
   font-size: 110%;
 }
 
+a:hover{
+  color: lightgray;
+  font-size: 110%;
+}
+
+.container{
+  margin-bottom: 1%;
+  padding-top: 4%;
+  /* border: 1px solid #000000; */
+}
+
 .content{
   float: left;
   margin: 1%;
@@ -74,16 +91,21 @@ div.nav:hover{
 .introduction{
   padding-bottom: 10%;
   padding-top: 3%;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
-h3.skills{
-  text-align: left;
+ul{
+  margin: 0 auto;
+  width: 20%;
+  /* border: 1px solid #000000; */
 }
 
 li{
   text-align: left;
-  /*padding-bottom: 1%;*/
+}
+
+.education{
+  width: 50%;
 }
 
 .profileMobile{
@@ -94,6 +116,39 @@ li{
   width: 60%;
   height: 60%;
   border-radius: 20px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.experience{
+  width: 80%;
+  margin: 0 auto; 
+}
+
+th, td{
+  padding: 1%;
+  text-align: left;
+  border-top: 1px solid grey;
+}
+
+.tbheader{
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+fieldset{
+  border: 1px solid #000000;
+  border-radius: 50px;
+  padding: 2%;
+
+}
+
+legend{
+  font-size: 120%;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 430px){
@@ -117,5 +172,19 @@ li{
 
   .profileMobile{
     display: block;
+  }
+
+  ul{
+    width: 50%;
+  }
+
+  .education{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  #sidebar{
+    /* height: -20%; */
   }
 }
