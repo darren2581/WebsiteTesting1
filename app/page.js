@@ -70,6 +70,10 @@ export default function Home() {
               <th>Projects</th>
               <th>Completion Period</th>
             </tr>
+            <tr>
+              <td>Projects</td>
+              <td>Completion Period</td>
+            </tr>
           </table>
         </div>
       </body>
