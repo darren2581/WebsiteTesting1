@@ -68,7 +68,7 @@ export default function Home() {
           <table>
             <tr>
               <th>Projects</th>
-              <th>Conpletion Period</th>
+              <th>Completion Period</th>
             </tr>
             <tr>
               <td>Exhibition Feedback System</td>
