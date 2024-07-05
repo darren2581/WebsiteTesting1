@@ -71,7 +71,7 @@ export default function Home() {
               <th>Conpletion Period</th>
             </tr>
             <tr>
-              <td><a href="https://github.com/darren2581/Exhibition-Feedback-System">Exhibition Feedback System</a></td>
+              <td>Exhibition Feedback System</td>
               <td>21st June</td>
             </tr>
           </table>
