@@ -71,14 +71,10 @@ export default function Home() {
               <th>Completion Period</th>
             </tr>
             <tr>
-              <td>Exhibition Feedback System</td>
+              <td><a href="https://github.com/darren2581/Exhibition-Feedback-System">Exhibition Feedback System</a></td>
               <td>21st June</td>
             </tr>
           </table>
-           <!-- <ul>
-            <li><a href="https://github.com/darren2581/Exhibition-Feedback-System">Exhibition Feedback System</a></li>
-            <li>Bachelor of Software Engineering (Curtin University)</li>
-          </ul> --!>
         </div>
       </body>
     </html>
