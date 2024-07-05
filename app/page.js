@@ -63,6 +63,13 @@ export default function Home() {
             <li>Bachelor of Software Engineering (Curtin University)</li>
           </ul>
         </div>
+        <div class="content">
+          <h2>Projects</h2>
+           <ul>
+            <li><a href="">Exhibition Feedback System</a></li>
+            <li>Bachelor of Software Engineering (Curtin University)</li>
+          </ul>
+        </div>
       </body>
     </html>
   );
