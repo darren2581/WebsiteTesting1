@@ -186,7 +186,7 @@ legend{
 }
 
 /*landscape mobile*/
-@media only screen and (max-width: 932px){
+@media only screen and (max-width: 1180px){
   header{
     width: 100%;
   }
