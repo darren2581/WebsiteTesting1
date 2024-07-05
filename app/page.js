@@ -32,12 +32,12 @@ export default function Home() {
             <h4><a href="https://www.google.com">Contact</a></h4>
           </div>
         </div>
-        <div class="about">
+        <div class="content">
           <div class="profileMobile">
             <Image src={CurtinImage} alt="Curtin" title="Author Personal Picture" id="profileMobile" />
             <p class="role">Software Engineer</p>
           </div>
-          <h2 id="about">About</h2>
+          <h2>About</h2>
           <p class="introduction">
             Hi, Welcome to my Portfolio. My name is Darren Tan Thong En a Software Engineer Student at Curtin University Malaysia. 
             Currently in the process of learning and discovering new possibilities in the field of Computing. 
@@ -56,7 +56,8 @@ export default function Home() {
             <li>JavaScript (Good)</li>
           </ul>
         </div>
-        <div id="education">
+        <div class="content">
+          <h2>Education</h2>
            <ul>
             <li>Foundation in Science and Engineering (Curtin University)</li>
             <li>Bachelor of Software Engineering (Curtin University)</li>
