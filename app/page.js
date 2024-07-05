@@ -56,6 +56,12 @@ export default function Home() {
             <li>JavaScript (Good)</li>
           </ul>
         </div>
+        <div id="education">
+           <ul>
+            <li>Foundation in Science and Engineering (Curtin University)</li>
+            <li>Bachelor of Software Engineering (Curtin University)</li>
+          </ul>
+        </div>
       </body>
     </html>
   );
