@@ -1,4 +1,4 @@
-we import Image from 'next/image';
+import Image from 'next/image';
 import CurtinImage from '../public/Curtin.jpeg';
 
 export default function Home() {
