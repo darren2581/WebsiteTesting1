@@ -65,10 +65,20 @@ export default function Home() {
         </div>
         <div class="content">
           <h2>Projects</h2>
-           <ul>
+          <table>
+            <tr>
+              <th>Projects</th>
+              <th>Conpletion Period</th>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/darren2581/Exhibition-Feedback-System">Exhibition Feedback System</a></td>
+              <td>21st June</td>
+            </tr>
+          <\table>
+           /*<ul>
             <li><a href="https://github.com/darren2581/Exhibition-Feedback-System">Exhibition Feedback System</a></li>
             <li>Bachelor of Software Engineering (Curtin University)</li>
-          </ul>
+          </ul>*/
         </div>
       </body>
     </html>
