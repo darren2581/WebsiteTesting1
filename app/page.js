@@ -66,7 +66,7 @@ export default function Home() {
         <div class="content">
           <h2>Projects</h2>
            <ul>
-            <li><a href="">Exhibition Feedback System</a></li>
+            <li><a href="https://github.com/darren2581/Exhibition-Feedback-System">Exhibition Feedback System</a></li>
             <li>Bachelor of Software Engineering (Curtin University)</li>
           </ul>
         </div>
