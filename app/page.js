@@ -64,10 +64,10 @@ export default function Home() {
           </ul>
         </div>
         <div class="content">
-          <h2>Projects</h2>
+          <h2>Programming Experince</h2>
           <table>
             <tr>
-              <th>Experience</th>
+              <th>Projects</th>
               <th>Completion Period</th>
             </tr>
             <tr>
