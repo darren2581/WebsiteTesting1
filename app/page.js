@@ -70,14 +70,6 @@ export default function Home() {
               <th>Projects</th>
               <th>Completion Period</th>
             </tr>
-            <tr>
-              <td>Exhibition Feedback System</td>
-              <td>21st June</td>
-            </tr>
-            <tr>
-              <td>Exhibition Feedback System</td>
-              <td>21st June</td>
-            </tr>
           </table>
         </div>
       </body>
