@@ -185,8 +185,8 @@ legend{
   }
 }
 
-/*Ipad*/
-@media only screen and (max-width: 1180px) and (min-width: 430){
+/*landscape mobile and ipad*/
+@media only screen and (max-width: 1180px) and (min-width: 430px){
   header{
     width: 100%;
   }
@@ -207,6 +207,8 @@ legend{
 
   .profileMobile{
     display: block;
+    width: 70%;
+    margin: 0 auto;
   }
 
   ul{
