@@ -20,6 +20,7 @@ header{
   padding: 30px;
   background-color: #f0f0f0;
   letter-spacing: 5px;
+  box-shadow: 3px 3px 3px #c7c7c7;
 }
 
 #sidebar{
@@ -186,7 +187,7 @@ legend{
 }
 
 /*landscape mobile and ipad*/
-@media only screen and (max-width: 1180px) and (min-width: 430px){
+@media only screen and (max-width: 1180px) and (min-width: 431px){
   header{
     width: 100%;
   }
@@ -218,10 +219,4 @@ legend{
   .education{
     width: 90%;
   }
-}
-
-@media only screen and (max-width: 1200px){
-  /* #sidebar{
-    height: -20%;
-  } */
 }
