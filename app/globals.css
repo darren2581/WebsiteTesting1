@@ -185,8 +185,8 @@ legend{
   }
 }
 
-/*landscape mobile*/
-@media only screen and (max-width: 1180px){
+/*Ipad*/
+@media only screen and (max-width: 1180px) and (min-width: 430){
   header{
     width: 100%;
   }
